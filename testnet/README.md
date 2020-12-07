@@ -1,4 +1,4 @@
-# UAT
+# Testnet
 
 ## Contract addresses
 
