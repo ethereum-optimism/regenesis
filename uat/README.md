@@ -1,4 +1,4 @@
-# UAT
+# UAT Goerli
 
 ## Contract addresses
 

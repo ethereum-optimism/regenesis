@@ -1,4 +1,4 @@
-# Testnet
+# Kovan
 
 ## Contract addresses
 
