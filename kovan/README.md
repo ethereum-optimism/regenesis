@@ -30,6 +30,9 @@
 ^Note the l2 contracts here are not the right addresses
 `OVM_L2CrossDomainMessenger` is always at `0x4200000000000000000000000000000000000007`
 
+## Chain Id
+69
+
 ## Provider Endpoint
 
 n/a
