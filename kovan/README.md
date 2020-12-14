@@ -6,7 +6,6 @@
   "AddressManager": "0xDDBfB20007D0dC444Cfe0dd0085BE10D6B63A650",
   "OVM_Sequencer": "0x18394B52d3Cb931dfA76F63251919D051953413d",
   "Deployer": "0x18394B52d3Cb931dfA76F63251919D051953413d",
-  "OVM_L2CrossDomainMessenger": "0xb65970B64A1a3b6eA32e2E719403930d45D0bFAf",
   "OVM_L1CrossDomainMessenger": "0xee2BD26f8F3C8Ab1c85D191231040E179901591a",
   "Proxy__OVM_L1CrossDomainMessenger": "0xC4d81A6cF200D1fd169a88EC6D2dd8E10A619E40",
   "OVM_CanonicalTransactionChain": "0xA621FD2EFda2E8Acd72Df9808C0575851E526285",
@@ -27,15 +26,16 @@
   "OVM_BondManager": "0x8080EaF811811d9c61788c99c634a69236C22A6B",
   "OVM_ETH": "0x103a084B8509980F2226f45181ae7bF3D860c9cE"
 ```
-^Note the l2 contracts here are not the right addresses
-`OVM_L2CrossDomainMessenger` is always at `0x4200000000000000000000000000000000000007`
+Messengers:
+On L1, use the `Proxy__OVM_L1CrossDomainMessenger` listed above. 
+On L2, the `OVM_L2CrossDomainMessenger` is always at `0x4200000000000000000000000000000000000007`
 
 ## Chain Id
 69
 
 ## Provider Endpoint
 
-n/a
+https://kovan.optimism.io
 
 ## Current Regenesis
 
