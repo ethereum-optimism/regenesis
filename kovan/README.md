@@ -5,7 +5,6 @@
   "AddressManager": "0x8dD4690ecBa7BC2B08b53e906477e6983116C7b8",
   "OVM_Sequencer": "0x18394B52d3Cb931dfA76F63251919D051953413d",
   "Deployer": "0x18394B52d3Cb931dfA76F63251919D051953413d",
-  "OVM_L2CrossDomainMessenger": "0x6CD3378208AE11eb098aDB0d7A71C4BAcc39DDF7",
   "OVM_L1CrossDomainMessenger": "0x6fa7C3D47ed7984a32fa897bE1729927D4274125",
   "Proxy__OVM_L1CrossDomainMessenger": "0x387E26F9443D2BECBec1687D41f35baC04b16556",
   "OVM_CanonicalTransactionChain": "0x1c0B0A94E284B9D36a0726Decb7056991b92d509",
@@ -31,8 +30,8 @@
 ```
 
 Messengers:
-On L1, use the `Proxy__OVM_L1CrossDomainMessenger` listed above. 
-On L2, the `OVM_L2CrossDomainMessenger` is always at `0x4200000000000000000000000000000000000007`
+* On L1, use the `Proxy__OVM_L1CrossDomainMessenger` listed above. 
+* On L2, the `OVM_L2CrossDomainMessenger` is always at `0x4200000000000000000000000000000000000007`
 
 ## Chain Id
 69
