@@ -27,7 +27,7 @@ Messengers:
 * On L2, the `OVM_L2CrossDomainMessenger` is always at `0x4200000000000000000000000000000000000007`
 
 ## Chain Id
-422 (Cause it's 420, too)
+10
 
 ## Provider Endpoint
 https://mainnet.optimism.io
