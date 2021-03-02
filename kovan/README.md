@@ -28,6 +28,7 @@
   "OVM_ChainStorageContainer:CTC:batches": "0x095744753D5353C1FC43EFb1ab81D06f3e2F4630",
   "OVM_ChainStorageContainer:CTC:queue": "0xFCE31EC2Bc82553FaA4A9a6DF36c9b0DFDAdD4B8",
   "OVM_ChainStorageContainer:SCC:batches": "0xcFf7ed66bC3C1eA64c6394FEBb2408D16c6cBC5E"
+  "OVM_L1ETHGateway": "0x6647D5BD9EB9425838Bb89f76a166228b95671a3"
 ```
 
 Messengers:
