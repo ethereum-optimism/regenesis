@@ -3,7 +3,7 @@
 ## Contract addresses
 ```
   "AddressManager": "0x1De8CFD4C1A486200286073aE91DE6e8099519f1",
-  "OVM_Sequencer": "0x47b50Dcc70B63cB71D6cC429c307F169e651c773",
+  "OVM_Sequencer": "0xfd7D4de366850C08EE2CBa32d851385A3071Ec8D",
   "Deployer": "0xc6Dbc2DC7649c7d4292d955DA08A7C21a21e1528",
   "OVM_L1CrossDomainMessenger": "0xE8F1bD5e5629F4adac6fd63A39F4b4cB76c5E7B2",
   "Proxy__OVM_L1CrossDomainMessenger": "0xfBE93ba0a2Df92A8e8D40cE00acCF9248a6Fc812",
