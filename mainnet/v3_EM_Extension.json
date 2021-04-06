@@ -1013,6 +1013,77 @@
                     "outputs": [],
                     "stateMutability": "nonpayable",
                     "type": "function"
+                },
+                {
+                    "inputs": [
+                        {
+                            "components": [
+                                {
+                                    "internalType": "uint256",
+                                    "name": "timestamp",
+                                    "type": "uint256"
+                                },
+                                {
+                                    "internalType": "uint256",
+                                    "name": "blockNumber",
+                                    "type": "uint256"
+                                },
+                                {
+                                    "internalType": "enum Lib_OVMCodec.QueueOrigin",
+                                    "name": "l1QueueOrigin",
+                                    "type": "uint8"
+                                },
+                                {
+                                    "internalType": "address",
+                                    "name": "l1TxOrigin",
+                                    "type": "address"
+                                },
+                                {
+                                    "internalType": "address",
+                                    "name": "entrypoint",
+                                    "type": "address"
+                                },
+                                {
+                                    "internalType": "uint256",
+                                    "name": "gasLimit",
+                                    "type": "uint256"
+                                },
+                                {
+                                    "internalType": "bytes",
+                                    "name": "data",
+                                    "type": "bytes"
+                                }
+                            ],
+                            "internalType": "struct Lib_OVMCodec.Transaction",
+                            "name": "_transaction",
+                            "type": "tuple"
+                        },
+                        {
+                            "internalType": "address",
+                            "name": "_from",
+                            "type": "address"
+                        },
+                        {
+                            "internalType": "contract iOVM_StateManager",
+                            "name": "_ovmStateManager",
+                            "type": "address"
+                        }
+                    ],
+                    "name": "simulateMessage",
+                    "outputs": [
+                        {
+                            "internalType": "bool",
+                            "name": "",
+                            "type": "bool"
+                        },
+                        {
+                            "internalType": "bytes",
+                            "name": "",
+                            "type": "bytes"
+                        }
+                    ],
+                    "stateMutability": "nonpayable",
+                    "type": "function"
                 }
             ]
         },
