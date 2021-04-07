@@ -1,0 +1,11 @@
+{
+  "name": "deployments",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "directory-tree": "^2.2.7",
+    "ethers": "^5.1.0",
+    "yargs": "^16.2.0"
+  }
+}
