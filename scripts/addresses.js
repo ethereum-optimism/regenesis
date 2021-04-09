@@ -7,8 +7,7 @@ const argv = yargs(hideBin(process.argv)).argv
 ;(async () => {
   console.log(`Listing known addresses for: ${argv.network}`)
 
-  const providerUrl = `https://${argv.network}.infura.io/v3/${argv.infuraKey}`
-  const provider = new ethers.providers.JsonRpcProvider(providerUrl)
+  const provider = new ethers.providers.JsonRpcProvider(argv.rpcUrl)
 
   // Get a reference to the address manager and throw if unable to do so.
   let Lib_AddressManager

@@ -12,8 +12,7 @@ const nicknames = {
 ;(async () => {
   console.log(`Checking deployment for network: ${argv.network}`)
 
-  const providerUrl = `https://${argv.network}.infura.io/v3/${argv.infuraKey}`
-  const provider = new ethers.providers.JsonRpcProvider(providerUrl)
+  const provider = new ethers.providers.JsonRpcProvider(argv.rpcUrl)
 
   // Get a reference to the address manager and throw if unable to do so.
   let Lib_AddressManager
